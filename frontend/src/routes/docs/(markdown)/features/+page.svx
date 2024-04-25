@@ -1,0 +1,11 @@
+<!--
+SPDX-FileCopyrightText: 2023 Marlon W (Mawoka)
+
+SPDX-License-Identifier: MPL-2.0
+-->
+
+# Features
+
+
+- [Custom-Field](/docs/features/custom-field)
+- [Remote-Control](/docs/features/remote-control)

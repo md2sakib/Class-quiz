@@ -1,0 +1,473 @@
+{
+    "index_page": {
+        "meta": {
+            "title": "首頁",
+            "description": "ClassQuiz 是一款為學生設計的似 Kahoot! 測驗應用程式，不僅開源還免費"
+        },
+        "slogan": "開源的測驗平台！",
+        "create_or_import": "建立或匯入",
+        "see_all_quizzes": "查看你所有的測驗",
+        "teachers_site": "教師頁面",
+        "students_site": "學生頁面",
+        "no_tracking": "零追蹤",
+        "self_hostable": "可自行架設",
+        "german_server": "德國伺服器",
+        "user_friendly": "易於使用",
+        "completely_free": "完全免費",
+        "multilingual": "多語言",
+        "dark_mode": "深色模式",
+        "get_a_quiz": "1. 取得測驗",
+        "create_a_quiz_from_scratch": "使用編輯器建立測驗並加入圖片和更多內容",
+        "import_quiz_from_kahoot_and_edit": "從 Kahoot! 匯入測驗並在 ClassQuiz 上進行編輯",
+        "play_quiz": "2. 遊玩測驗",
+        "select_answer": "選擇答案",
+        "choose_answer_wisely": "明智地選擇你的答案",
+        "view_results": "檢視結果",
+        "check_if_chosen_wisely": "驗證你的選擇是否正確",
+        "list_winners": "列出贏家",
+        "get_ranking_and_winners": "取得排名和贏家",
+        "why_classquiz": "為什麼選擇 ClassQuiz？",
+        "download_quizzes": "下載測驗",
+        "stats": "ClassQuiz 上已有 {{user_count}} 位使用者和 {{quiz_count}} 個測驗。",
+        "features_description": {
+            "1": "ClassQuiz 是一個可以讓你建立和管理測驗的測驗平台。",
+            "2": "最主要的功能之一是允許你匯入 Kahoot! 上的測驗。",
+            "3": "編輯器和可將測驗結果匯出為 Excel 檔為此軟體的幾個亮點。"
+        },
+        "quiz_results_downloadable": "可被下載的測驗結果",
+        "find_or_explore": "搜尋 (或瀏覽) 其他人建立和匯入的測驗",
+        "no_tracking_content": "Kahoot! 會追蹤並將你的資料分享給第三方，但 ClassQuiz 不會。",
+        "user_friendly_content": "ClassQuiz 旨在簡單，每個人都可以輕鬆使用。",
+        "dark_mode_content": "一個網站最重要的功能之一！",
+        "german_server_content": "ClassQuiz 的伺服器位於德國，並由 netcup 提供。",
+        "how_does_classquiz_work": "ClassQuiz 是如何運作的？",
+        "see_how_many_true_and_false": "看看有多少人是對的或錯的",
+        "completely_free_content": "ClassQuiz 完全免費 (對用戶而言)，沒有任何訂閱機制，也不會惱人地重新定向至升級頁面。你的捐贈我們不勝感激。",
+        "see_what_true_and_false": "看看什麼是對的，什麼是錯的",
+        "self_hostable_content": "輕鬆地自行架設 ClassQuiz ，資料只由你掌控！",
+        "quiz_results_downloadable_content": "測驗結果可以簡單地被匯出為 Excel 試算表。(不知道其他類似的服務沒有提供此功能)",
+        "community_driven": "社群驅動",
+        "community_driven_content": "ClassQuiz 依靠它的社群提供金援、測試想法、功能請求、翻譯...等！你也可以成為 ClassQuiz 的社群成員之一！",
+        "multilingual_content": "",
+        "download_quizzes_content": ""
+    },
+    "edit_page": {
+        "success_update_title": "測驗已更新。",
+        "success_update_body": ""
+    },
+    "create_page": {
+        "success": {
+            "title": "測驗已建立。",
+            "body": "讓遊戲開始吧。"
+        }
+    },
+    "register_page": {
+        "create_account": "建立帳戶",
+        "forgot_password?": "忘記密碼？",
+        "already_have_account?": "已經擁有帳戶？",
+        "greeting": "很高興見到你！"
+    },
+    "login_page": {
+        "login_or_create_account": "登入或建立帳戶",
+        "already_have_account": "沒有帳戶？",
+        "modal": {
+            "error": {
+                "wrong_creds": "電子信箱地址或密碼錯誤。",
+                "unexpected": "非預期錯誤！",
+                "description": {
+                    "wrong_creds": "請確認你的密碼和電子信箱地址是否正確。",
+                    "unexpected": "非預期錯誤！"
+                }
+            },
+            "success": {
+                "success": "已登入。",
+                "success_check_mail": "已登入。請檢查你的電子信箱收件匣。",
+                "description": {
+                    "success": "已登入。",
+                    "success_check_mail": ""
+                }
+            }
+        },
+        "welcome_back": "歡迎回來。",
+        "use_backup_code": "使用備用代碼",
+        "email_or_username": "電子信箱或使用者名稱"
+    },
+    "editor": {
+        "delete_question": "刪除問題",
+        "add_new_question": "新增問題",
+        "delete_answer": "刪除答案",
+        "add_new_answer": "新增答案",
+        "not_all_links_imgur_links": "不是所有連結都是 Imgur 連結！",
+        "right_or_true?": "正確？",
+        "no_title": "沒有標題...",
+        "bg_image": "背景圖片",
+        "slide": {
+            "rectangle": "長方形",
+            "headline": "",
+            "headline_description": "",
+            "rectangle_description": "",
+            "text": "",
+            "text_description": ""
+        },
+        "check_choice_description": "",
+        "text_description": "",
+        "order_description": "",
+        "voting_description": "",
+        "range_description": "",
+        "empty": "",
+        "abcd_description": "",
+        "time_in_seconds": ""
+    },
+    "import_page": {
+        "need_help": "需要幫助？",
+        "visit_docs": "檢視說明文件",
+        "url_should_look_like_this": "URL 看起來應該像這樣：https://create.kahoot.it/details/...",
+        "a_kahoot_quiz": "一個 Kahoot! 測驗",
+        "this_side_classquiz": "你可以在這邊匯入 ClassQuiz 測驗。",
+        "side_import_kahoot": "你可以在這邊匯入 Kahoot! 測驗。",
+        "upload_file_ending": "上傳副檔名為 cqa 的檔案",
+        "classquiz_quiz": "一個 ClassQui 測驗",
+        "this_side_classquiz_excel": "",
+        "download_template_here": ""
+    },
+    "admin_page": {
+        "start_game": "開始遊戲",
+        "get_results": "取得結果",
+        "get_results_and_stop_time": "取得結果並停止計時",
+        "get_final_results": "取得最終結果",
+        "export_results": "匯出結果",
+        "show_next_question": "顯示下一個問題",
+        "time_left": "剩餘時間",
+        "stop_time": "停止計時",
+        "no_answers": "沒有答案！",
+        "start_by_showing_first_question": "開始時顯示第一個問題。",
+        "save_results": "儲存結果",
+        "already_registered_as_admin": "此遊戲已有一位管理員。",
+        "stop_time_and_solutions": "停止計時並顯示解答",
+        "enter_answer_into_field": "在輸入欄內輸入你的答案！",
+        "show_results": "顯示結果",
+        "next_question": "下個問題 ({{question}})",
+        "request_export_results": "",
+        "answers_submitted": "",
+        "download_export_results": ""
+    },
+    "password_reset_page": {
+        "reset_password": "重設密碼"
+    },
+    "settings_page": {
+        "old_password": "舊密碼",
+        "new_password": "新密碼",
+        "repeat_password": "再次輸入密碼",
+        "change_password_submit": "變更密碼！",
+        "check_location": "檢查位置",
+        "delete_this_session": "刪除此工作階段",
+        "this_session?": "這個工作階段？",
+        "security_settings": "安全性設定",
+        "change_avatar": "",
+        "last_seen": "",
+        "add_api_key": ""
+    },
+    "explore_page": {
+        "made_by": "作者為",
+        "imported_by": "匯入者為"
+    },
+    "play_page": {
+        "2nd_place": "第二名",
+        "3rd place": "第三名",
+        "with_out_of": "{{total_question_count}} 題中答對 {{correct_questions}} 題",
+        "1st_place": "第一名",
+        "end_sentence": "完成！本次測驗結束。",
+        "your_score": "",
+        "join_description": "在 {{url}} 加入並輸入 {{pin}}。",
+        "points_added": "",
+        "final_result_rank": "",
+        "join_by_entering_code": ""
+    },
+    "editor_page": {
+        "add_an_answer": "新增一個答案",
+        "right_click_to_delete": "右鍵點擊一個答案即可將它刪除！"
+    },
+    "footer": {
+        "more_details_here": "更多詳細資訊",
+        "self_ads": "由 {{mawoka_link}} 在 {{other_link}} 的協助下以 ❤️ 製作。",
+        "donate": "若你覺得這很實用，請考慮 {{donate_link}}。"
+    },
+    "uploader": {
+        "add_image": "新增圖片",
+        "images_by_pixabay": "",
+        "upload_video_popup_notice": "",
+        "select_upload_type": "",
+        "upload_a_video": "",
+        "next_page": "",
+        "visit_pixabay": "",
+        "previous_page": "",
+        "search_english_only": "",
+        "upload_video": ""
+    },
+    "words": {
+        "find": "尋找",
+        "question": "問題",
+        "answer": "答案",
+        "stats": "統計資料",
+        "features": "功能",
+        "login": "登入",
+        "email": "電子信箱地址",
+        "username": "使用者名稱",
+        "password": "密碼",
+        "edit": "編輯",
+        "delete": "刪除",
+        "public": "公開",
+        "create": "建立",
+        "import": "匯入",
+        "logout": "登出",
+        "title": "標題",
+        "url": "URL",
+        "submit": "提交",
+        "pin": "PIN",
+        "kick": "踢出",
+        "register": "註冊",
+        "close": "關閉",
+        "save": "儲存",
+        "description": "描述",
+        "image": "圖片",
+        "settings": "設定",
+        "repeat_password": "再次輸入密碼",
+        "explore": "發現",
+        "screenshot": "螢幕截圖",
+        "screenshot_plural": "螢幕截圖",
+        "browser": "瀏覽器",
+        "correct": "正確",
+        "result": "結果",
+        "result_plural": "結果",
+        "range": "範圍",
+        "multiple_choice": "選擇題",
+        "private": "私人",
+        "dashboard": "儀錶板",
+        "question_plural": "問題",
+        "game_pin": "遊戲 PIN",
+        "other": "其他",
+        "search": "搜尋",
+        "other_plural": "其他人",
+        "download": "下載",
+        "voting": "投票",
+        "docs": "文件",
+        "donating": "贊助",
+        "practice": "練習",
+        "error": "錯誤",
+        "continue": "繼續",
+        "backup_code": "備用代碼",
+        "totp": "基於時間的一次性密碼演算法 (TOTP)",
+        "play": "遊玩",
+        "text": "文字",
+        "start": "開始",
+        "connect": "連線",
+        "results": "結果",
+        "score": "分數",
+        "player_plural": "玩家",
+        "finish": "完成",
+        "point": "",
+        "name": "姓名",
+        "slide": "投影片",
+        "note": "筆記",
+        "back": "返回",
+        "point_plural": "",
+        "upload": "",
+        "next": "",
+        "analytics": "",
+        "no": "",
+        "speed": "",
+        "files_library": "",
+        "check_choice": "",
+        "answer_plural": "",
+        "version": "",
+        "update": "",
+        "play_plural": "",
+        "rating": "",
+        "video": "",
+        "order": "",
+        "dislike_plural": "",
+        "info": "",
+        "view_plural": "",
+        "yes": "",
+        "like": "",
+        "dislike": "",
+        "progress": "",
+        "select": "",
+        "like_plural": "",
+        "view": "",
+        "count": "",
+        "report": "",
+        "quiztivity": "",
+        "library": "",
+        "normal": "",
+        "selected": "",
+        "unknown": "",
+        "overview": "",
+        "never": "",
+        "quiz": ""
+    },
+    "search_page": {
+        "at_least_3_characters": "輸入至少 3 個字元...",
+        "nothing_here": "這裡空無一物..."
+    },
+    "dashboard": {
+        "search_for_own_quizzes": "搜尋你的測驗",
+        "commandpalette_notice": "",
+        "views_n_plays": "",
+        "info_analytics": ""
+    },
+    "overview_page": {
+        "created_at": "建立於",
+        "question_count": "問題數",
+        "no_quizzes": "點擊「建立」按鈕或從 Kahoot! 匯入測驗。"
+    },
+    "error_page": {
+        "unknown_error_text": "這不應該發生。這可能是我的問題而不是你的，不過說不定你擁有破壞東西的魔法能力...",
+        "404_text": "你正在尋找的頁面以刪除或不存在。誰知道發生了什麼事？"
+    },
+    "avatar_settings": {
+        "skin_color": "膚色",
+        "eyebrow_type": "睫毛",
+        "accessories_type": "眼鏡",
+        "facial_hair_color": "鬍子顏色",
+        "mouth_type": "嘴巴",
+        "start_over": "重新開始",
+        "thats_you": "這是你！",
+        "hair_color": "髮色",
+        "facial_hair_type": "鬍子",
+        "hat_color": "帽子顏色",
+        "clothe_type": "服裝",
+        "clothe_color": "服裝顏色",
+        "go_back": "返回",
+        "clothe_graphic_type": "",
+        "top_type": ""
+    },
+    "results_page": {
+        "quiz_title": "測驗標題",
+        "player_count": "玩家人數",
+        "date_played": "測驗日期",
+        "no_results_so_far": "尚未儲存任何結果...",
+        "general_overview": {
+            "sentence": ""
+        }
+    },
+    "result_page": {
+        "player_name": "玩家名稱",
+        "custom_field": "自訂欄位",
+        "average_score": "平均分數：{{average_score}}",
+        "time_taken": "花費時間",
+        "correct_answer": "{{count}} 個正確答案",
+        "correct_answer_plural": "{{count}} 個正確答案",
+        "player_score": ""
+    },
+    "security_settings": {
+        "activate_2fa": "啟用兩步驟驗證",
+        "2fa_deactivated": "兩步驟驗證未啟用",
+        "2fa_activated": "兩步驟驗證已啟用",
+        "get_backup_code": "",
+        "enable_totp": "",
+        "disable_totp": "",
+        "totp_setup": {
+            "enter_as_secret_if_no_see_code": "",
+            "scan_to_set_up": "",
+            "totp_setup": "",
+            "do_not_forget_backup_code": ""
+        },
+        "backup_code": "",
+        "backup_codes": {
+            "download_code": "",
+            "your_backup_code": "",
+            "save_somewhere_save": ""
+        },
+        "totp": "",
+        "totp_unavailable": "",
+        "webauthn": "",
+        "add_security_key": "",
+        "webauthn_unavailable": "",
+        "totp_available": "",
+        "webauthn_available": ""
+    },
+    "file_dashboard": {
+        "unset": "",
+        "filename_word": "",
+        "imported": "",
+        "filename": "",
+        "missing": "",
+        "delete_image": "",
+        "size": "",
+        "storage_usage": "",
+        "alt_text": "",
+        "edit_details": "",
+        "uploaded": "",
+        "not_available": "",
+        "caption": "",
+        "edit_the_image": ""
+    },
+    "quiztivity": {
+        "editor": {
+            "add_new": "",
+            "move_left": "",
+            "shares": {
+                "never_expires": "",
+                "expires_on": "",
+                "add_new_share": ""
+            },
+            "title_placeholder": "",
+            "delete": "",
+            "open_shares_menu": "",
+            "select_page_type": "",
+            "move_right": ""
+        },
+        "share_expired": "",
+        "play": {
+            "memory": {
+                "try_count": ""
+            }
+        },
+        "memory": {
+            "editor": {
+                "add_card": "",
+                "add_pair": "",
+                "upload_image": ""
+            }
+        }
+    },
+    "controllers": {
+        "last_seen": "",
+        "cancel_update": "",
+        "add_new_controller": "",
+        "player_name": "",
+        "controller_name": "",
+        "already_latest_version": "",
+        "update_from_to": "",
+        "first_seen": "",
+        "version_overview": ""
+    },
+    "view_quiz_page": {
+        "made_by": "",
+        "view_on_kahoot": ""
+    },
+    "start_game": {
+        "old_school_mode_description": "",
+        "old_school_mode": "",
+        "start_game": "",
+        "captcha_message": "",
+        "normal_mode_description": ""
+    },
+    "video_uploader": {
+        "time_remaining": "",
+        "time_elapsed": ""
+    },
+    "navbar": {
+        "donate": ""
+    },
+    "public_user_page": {
+        "no_original_quizzes": "",
+        "joined_on": ""
+    },
+    "components": {
+        "popover": {
+            "copied_to_clipboard": ""
+        }
+    }
+}

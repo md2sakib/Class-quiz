@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2023 Marlon W (Mawoka)
+#
+# SPDX-License-Identifier: MPL-2.0
+
+__pycache__/
+.idea/
+node_modules/
+.svelte-kit/
+.env*
+*.db
+*.rdb
+survey.json
+.coverage
+export_deta.py

@@ -1,0 +1,16 @@
+<!--
+SPDX-FileCopyrightText: 2023 Marlon W (Mawoka)
+
+SPDX-License-Identifier: MPL-2.0
+-->
+
+
+# Remote Control
+
+Control the admin-screen from a different device!
+
+## Use Case
+
+Imagine mirroring the admin-screen to a projector and you want to show the quiz full-screen without the disruption of
+buttons, etc. That's where this feature comes in handy, since you can control the quiz from another device, e.g. your
+phone.

@@ -1,0 +1,15 @@
+<!--
+SPDX-FileCopyrightText: 2023 Marlon W (Mawoka)
+
+SPDX-License-Identifier: MPL-2.0
+-->
+
+# Text
+
+## Summary
+- Players can enter text
+- 4 different correct solutions can be given
+- case sensitivity can be set per answer
+
+## Use case
+- Test if a name is remembered correctly
