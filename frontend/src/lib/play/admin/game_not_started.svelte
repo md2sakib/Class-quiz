@@ -98,7 +98,7 @@ SPDX-License-Identifier: MPL-2.0
 	<div class="flex flex-row w-full mt-4 px-10 flex-wrap">
 		{#if players.length > 0}
 			{#each players as player}
-				<div class="p-2 m-2 border-2 border-[#B07156] rounded hover:cursor-pointer">
+				<div class="p-2 m-2 border-2 border-[#000000] rounded hover:cursor-pointer">
 					<span
 						class="hover:line-through text-lg"
 						on:click={() => {

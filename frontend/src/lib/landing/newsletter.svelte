@@ -32,7 +32,7 @@ SPDX-License-Identifier: MPL-2.0
 			</svg>
 		</button>
 	</div>
-	<div>
+	<!-- <div>
 		<h3 class="text-lg font-semibold">ClassQuiz-Newsletter</h3>
 		<input type="hidden" name="nonce" />
 		<p>
@@ -70,5 +70,5 @@ SPDX-License-Identifier: MPL-2.0
 				>Subscribe!
 			</button>
 		</div>
-	</div>
+	</div> -->
 </form>

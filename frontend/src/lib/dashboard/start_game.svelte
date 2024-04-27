@@ -208,9 +208,9 @@ SPDX-License-Identifier: MPL-2.0
 				<span class="ml-3 text-sm font-medium text-gray-900"> Randomize answers</span>
 			</label>
 		</div>
-
+			<!-- ################## green-500  green-400 -->
 		<button
-			class="mt-auto mx-auto bg-green-500 p-4 rounded-lg shadow-lg hover:bg-green-400 transition-all marck-script text-2xl"
+			class="mt-auto mx-auto bg-blue-600 p-4 rounded-lg shadow-lg hover:bg-blue-500 transition-all marck-script text-2xl"
 			on:click={() => {
 				start_game(quiz_id);
 			}}

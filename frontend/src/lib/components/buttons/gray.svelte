@@ -12,11 +12,13 @@ SPDX-License-Identifier: MPL-2.0
 	export let target: undefined | string = '_self';
 </script>
 
+<!-- class="w-full px-4 py-2 leading-5 text-black dark:text-white transition-colors duration-200 transform bg-gray-50 dark:bg-gray-700 rounded text-center hover:bg-gray-300 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:hover:bg-gray-600" -->
 {#if href}
 	<a
 		{href}
 		{target}
-		class="w-full px-4 py-2 leading-5 text-black dark:text-white transition-colors duration-200 transform bg-gray-50 dark:bg-gray-700 rounded text-center hover:bg-gray-300 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:hover:bg-gray-600"
+		
+		class="w-full px-4 py-2 leading-5 text-black dark:text-white transition-colors duration-200 transform bg-blue-500 dark:bg-gray-700 rounded text-center hover:bg-gray-300 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:hover:bg-gray-600"
 		on:click
 		class:flex
 		class:block={!flex}
@@ -27,7 +29,7 @@ SPDX-License-Identifier: MPL-2.0
 {:else}
 	<button
 		{disabled}
-		class="w-full px-4 py-2 leading-5 text-black dark:text-white transition-colors duration-200 transform bg-gray-50 dark:bg-gray-700 rounded text-center hover:bg-gray-300 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:hover:bg-gray-600"
+		class="w-full px-4 py-2 leading-5 text-black dark:text-white transition-colors duration-200 transform bg-blue-500 dark:bg-gray-700 rounded text-center hover:bg-gray-300 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:hover:bg-gray-600"
 		on:click
 		class:flex
 		class:justify-center={flex}

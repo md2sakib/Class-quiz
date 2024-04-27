@@ -69,7 +69,7 @@ SPDX-License-Identifier: MPL-2.0
 		{#each quiz_data.questions[selected_question].answers as answer, i}
 			<div
 				class="rounded-lg h-fit flex border-2 border-black"
-				style="background-color: {answer.color ?? default_colors[i]};"
+				style="background-color: #0061ff;"
 				class:opacity-50={!answer.right &&
 					timer_res === '0' &&
 					quiz_data.questions[selected_question].type === QuizQuestionType.ABCD}
@@ -82,7 +82,7 @@ SPDX-License-Identifier: MPL-2.0
 				/>
 				<span
 					class="text-center text-2xl px-2 py-4 w-full"
-					style="color: {get_foreground_color(answer.color ?? default_colors[i])}"
+					style="color: #000000"
 					>{answer.answer}</span
 				>
 				<span class="pl-4 w-10" />

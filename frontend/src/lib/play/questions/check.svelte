@@ -51,20 +51,17 @@ SPDX-License-Identifier: MPL-2.0
 		<CircularTimer bind:text={timer_res} bind:progress={circular_progress} color="#ef4444" />
 	</div>
 
-	<div class="grid grid-rows-2 grid-flow-col auto-cols-auto gap-2 w-full p-4 h-full">
+	<div class="grid grid-rows-2 grid-flow-col auto-cols-auto gap-2 w-full p-4 h-half">
 		{#each question.answers as answer, i}
 			<button
-				class="rounded-lg h-full flex align-middle justify-center disabled:opacity-60 p-3 border-2 border-black transition-all"
-				style="background-color: {answer.color ??
-					default_colors[i]}; color: {get_foreground_color(
-					answer.color ?? default_colors[i]
-				)}"
+				class="rounded-lg h-10 flex align-middle justify-center disabled:opacity-60 p-3 border-2 border-black transition-all"
+				style="background-color: #0061ff; color: #000000;"
 				on:click={() => selectAnswer(i)}
 				class:opacity-100={_selected_answers[i]}
 				class:opacity-50={!_selected_answers[i]}
 			>
 				{#if game_mode === 'kahoot'}
-					<img class="h-2/3 inline-block m-auto" alt="Icon" src={kahoot_icons[i]} />
+					<img class="h- inline-block m-auto" alt="Icon" src={kahoot_icons[i]} />
 				{:else}
 					<p class="m-auto">{answer.answer}</p>
 				{/if}
