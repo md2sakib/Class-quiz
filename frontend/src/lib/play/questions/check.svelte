@@ -46,7 +46,7 @@ SPDX-License-Identifier: MPL-2.0
         </div>
     -->
 	<div
-		class="absolute top-0 bottom-0 left-0 right-0 m-auto rounded-full h-fit w-fit border-2 border-black shadow-2xl z-40"
+		class="relative top-0 bottom-0 left-0 right-0 m-auto rounded-full h-fit w-fit border-2 border-black shadow-2xl z-40"
 	>
 		<CircularTimer bind:text={timer_res} bind:progress={circular_progress} color="#ef4444" />
 	</div>
@@ -61,7 +61,7 @@ SPDX-License-Identifier: MPL-2.0
 				class:opacity-50={!_selected_answers[i]}
 			>
 				{#if game_mode === 'kahoot'}
-					<img class="h- inline-block m-auto" alt="Icon" src={kahoot_icons[i]} />
+					<img class="h-10 inline-block m-auto" alt="Icon" src={kahoot_icons[i]} />
 				{:else}
 					<p class="m-auto">{answer.answer}</p>
 				{/if}

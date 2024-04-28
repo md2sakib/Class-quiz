@@ -130,9 +130,9 @@ SPDX-License-Identifier: MPL-2.0
 
 	:global(html.dark) {
 		//background-color: #0f2702;
-		background-color: #4e6e58;
+		background-color: #fff;
 		background-size: cover;
-		color: white;
+		color: black;
 
 		:global(#pips-slider) {
 			--pip: white;

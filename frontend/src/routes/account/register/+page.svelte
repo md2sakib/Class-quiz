@@ -83,7 +83,7 @@ SPDX-License-Identifier: MPL-2.0
 <div class="flex items-center justify-center h-full px-4">
 	<div>
 		<div
-			class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800"
+			class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-[#0061ffd6]"
 		>
 			<div class="px-6 py-4">
 				<h2 class="text-3xl font-bold text-center text-gray-700 dark:text-white">
@@ -94,13 +94,13 @@ SPDX-License-Identifier: MPL-2.0
 					{$t('register_page.greeting')}
 				</h3>
 
-				<p class="mt-1 text-center text-gray-500 dark:text-gray-400">
+				<p class="mt-1 text-center text-gray-700 dark: text-white">
 					{$t('register_page.create_account')}
 				</p>
 
 				<form use:form>
 					<div class="w-full mt-4">
-						<div class="dark:bg-gray-800 bg-white p-4 rounded-lg">
+						<div class="dark:bg-[#297AFF] bg-white p-4 rounded-lg">
 							<div class="relative bg-inherit w-full">
 								<input
 									id="email"
@@ -114,13 +114,13 @@ SPDX-License-Identifier: MPL-2.0
 								/>
 								<label
 									for="email"
-									class="absolute cursor-text left-0 -top-3 text-sm text-gray-700 dark:text-white bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
+									class="absolute cursor-text left-0 -top-3 text-sm text-white dark:text-black bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
 								>
 									{$t('words.email')}
 								</label>
 							</div>
 						</div>
-						<div class="dark:bg-gray-800 bg-white p-4 rounded-lg">
+						<div class="dark:bg-[#297AFF] bg-white p-4 rounded-lg">
 							<div class="relative bg-inherit w-full">
 								<input
 									id="username"
@@ -134,13 +134,13 @@ SPDX-License-Identifier: MPL-2.0
 								/>
 								<label
 									for="username"
-									class="absolute cursor-text left-0 -top-3 text-sm text-gray-700 dark:text-white bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
+									class="absolute cursor-text left-0 -top-3 text-sm text-gray-700 dark:text-black bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
 								>
 									{$t('words.username')}
 								</label>
 							</div>
 						</div>
-						<div class="dark:bg-gray-800 bg-white p-4 rounded-lg">
+						<div class="dark:bg-[#297AFF] bg-white p-4 rounded-lg">
 							<div class="relative bg-inherit w-full">
 								<input
 									id="password1"
@@ -160,7 +160,7 @@ SPDX-License-Identifier: MPL-2.0
 								</label>
 							</div>
 						</div>
-						<div class="dark:bg-gray-800 bg-white p-4 rounded-lg">
+						<div class="dark:bg-[#297AFF] bg-white p-4 rounded-lg">
 							<div class="relative bg-inherit w-full">
 								<input
 									id="password2"

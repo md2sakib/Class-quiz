@@ -157,6 +157,7 @@ SPDX-License-Identifier: MPL-2.0
 				{@html question.question}
 			</h1>
 			{#if question.image !== null && game_mode !== 'kahoot'}
+		
 				<div class="max-h-full">
 					<MediaComponent
 						src={question.image}
@@ -170,7 +171,7 @@ SPDX-License-Identifier: MPL-2.0
 		{#if question.type === QuizQuestionType.ABCD || question.type === QuizQuestionType.VOTING}
 			<div class="w-full relative h-full" style="height: {get_div_height()}%">
 				<div
-					class="absolute top-0 bottom-0 left-0 right-0 m-auto rounded-full h-fit w-fit border-2 border-black shadow-2xl z-40"
+					class="relative top-0 bottom-0 left-0 right-0 m-auto rounded-full h-fit w-fit border-2 border-black shadow-2xl z-40"
 				>
 					<CircularTimer
 						bind:text={timer_res}
@@ -179,9 +180,25 @@ SPDX-License-Identifier: MPL-2.0
 					/>
 				</div>
 
-				<div class="grid grid-rows-2 grid-flow-col auto-cols-auto gap-2 w-full p-4 h-full">
+				<div class="grid grid-rows-2 grid-flow-col auto-cols-auto gap-2 w-full p-4 h-half">
 					{#each question.answers as answer, i}
 						<button
+							class="rounded-lg h-full flex align-middle justify-center disabled:opacity-60 p-3 border-2 border-black"
+							style="background-color: #0061ff; color: #000000;"
+							disabled={selected_answer !== undefined}
+							on:click={() => selectAnswer(answer.answer)}
+						>
+							{#if game_mode === 'kahoot'}
+								<img
+									class="h-10 inline-block m-auto"
+									alt="Icon"
+									src={kahoot_icons[i]}
+								/>
+							{:else}
+								<p class="m-auto">{answer.answer}</p>
+							{/if}
+						</button>
+						<!-- <button
 							class="rounded-lg h-full flex align-middle justify-center disabled:opacity-60 p-3 border-2 border-black"
 							style="background-color: {answer.color ??
 								default_colors[i]}; color: {get_foreground_color(
@@ -199,7 +216,7 @@ SPDX-License-Identifier: MPL-2.0
 							{:else}
 								<p class="m-auto">{answer.answer}</p>
 							{/if}
-						</button>
+						</button> -->
 					{/each}
 				</div>
 			</div>
