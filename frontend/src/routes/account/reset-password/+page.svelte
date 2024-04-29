@@ -44,7 +44,7 @@ SPDX-License-Identifier: MPL-2.0
 <div class="flex items-center justify-center h-full px-4">
 	<div>
 		<div
-			class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800"
+			class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-[#297aff]"
 		>
 			<div class="px-6 py-4">
 				<h2 class="text-3xl font-bold text-center text-gray-700 dark:text-white">
@@ -62,7 +62,7 @@ SPDX-License-Identifier: MPL-2.0
 
 				<form on:submit|preventDefault={submit}>
 					<div class="w-full mt-4">
-						<div class="dark:bg-gray-800 bg-white p-4 rounded-lg">
+						<div class="dark:bg-[#297aff] bg-white p-4 rounded-lg">
 							<div class="relative bg-inherit w-full">
 								<input
 									id="email"
@@ -74,7 +74,7 @@ SPDX-License-Identifier: MPL-2.0
 								/>
 								<label
 									for="email"
-									class="absolute cursor-text left-0 -top-3 text-sm text-gray-700 dark:text-white bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
+									class="absolute cursor-text left-0 -top-3 text-sm text-black bg-white dark:text-white dark:bg-[#297AFF] mx-1 px-1 dark:peer-placeholder-shown:text-white peer-placeholder-shown:text-black peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-black dark:peer-focus:text-white peer-focus:text-sm transition-all"
 								>
 									{$t('words.email')}
 								</label>
@@ -89,7 +89,7 @@ SPDX-License-Identifier: MPL-2.0
 							>
 
 							<button
-								class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+								class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-[#374151] rounded hover:bg-gray-600 focus:outline-none disabled:cursor-not-allowed disabled:opacity-1"
 								disabled={email === ''}
 								type="submit"
 							>

@@ -45,19 +45,19 @@ SPDX-License-Identifier: MPL-2.0
 
 	<form on:submit|preventDefault={continue_in_login}>
 		<div class="w-full mt-4">
-			<div class="dark:bg-gray-800 bg-white p-4 rounded-lg">
+			<div class="dark:bg-[#297aff] bg-white p-4 rounded-lg">
 				<div class="relative bg-inherit w-full">
 					<input
 						id="backup_code"
 						bind:value={backup_code}
 						name="backup_code"
 						type="text"
-						class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+						class="w-full peer bg-transparent h-10 rounded-lg text-black dark:text-white placeholder-transparent ring-2 ring-black px-2 dark:ring-white dark:focus:ring-white focus:outline-none focus:border-white"
 						placeholder={$t('words.backup_code')}
 					/>
 					<label
 						for="backup_code"
-						class="absolute cursor-text left-0 -top-3 text-sm text-gray-700 dark:text-white bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
+						class="absolute cursor-text left-0 -top-3 text-sm text-black bg-white dark:text-white dark:bg-[#297AFF] mx-1 px-1 dark:peer-placeholder-shown:text-white peer-placeholder-shown:text-black peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-black dark:peer-focus:text-white peer-focus:text-sm transition-all"
 					>
 						{$t('words.backup_code')}
 					</label>
@@ -72,7 +72,7 @@ SPDX-License-Identifier: MPL-2.0
 					>{$t('login_page.use_backup_code')}</button
 				>
 				<button
-					class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+					class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-[#374151] rounded hover:bg-gray-600 focus:outline-none disabled:cursor-not-allowed disabled:opacity-1"
 					disabled={!backup_code_valid}
 					type="submit"
 				>

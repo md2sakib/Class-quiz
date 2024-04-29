@@ -57,7 +57,7 @@ SPDX-License-Identifier: MPL-2.0
 <div class="flex items-center justify-center h-full px-4">
 	<div>
 		<div
-			class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800"
+			class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-[#297aff]"
 		>
 			<div class="px-6 py-4">
 				<h2 class="text-3xl font-bold text-center text-gray-700 dark:text-white">
@@ -75,7 +75,7 @@ SPDX-License-Identifier: MPL-2.0
 
 				<form on:submit|preventDefault={submit}>
 					<div class="w-full mt-4">
-						<div class="dark:bg-gray-800 bg-white p-4 rounded-lg">
+						<div class="dark:bg-[#297aff] bg-white p-4 rounded-lg">
 							<div class="relative bg-inherit w-full">
 								<input
 									id="password1"
