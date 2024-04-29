@@ -128,7 +128,7 @@ SPDX-License-Identifier: MPL-2.0
 		<span class="p-4" />
 
 		<div
-			class="lg:w-[64rem] lg:max-w-[64rem] w-screen max-w-screen mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800"
+			class="lg:w-[64rem] lg:max-w-[64rem] w-screen max-w-screen mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-[#297AFF]"
 		>
 			<div class="px-6 py-4">
 				<h2 class="text-3xl font-bold text-center text-gray-700 dark:text-white">
@@ -145,30 +145,30 @@ SPDX-License-Identifier: MPL-2.0
 				<div class="grid grid-cols-2">
 					<form on:submit|preventDefault={submit}>
 						<div class="w-full mt-4 h-full flex flex-col">
-							<h2 class="text-center text-2xl">{$t('import_page.a_kahoot_quiz')}</h2>
-							<div class="dark:bg-gray-800 bg-white p-4 rounded-lg">
+							<h2 class="text-center text-2xl dark:text-white">{$t('import_page.a_kahoot_quiz')}</h2>
+							<div class="dark:bg-[#297AFF] bg-white p-4 rounded-lg">
 								<div class="relative bg-inherit w-full">
 									<input
 										id="url"
 										bind:value={url_input}
 										name="email"
 										type="url"
-										class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+										class="w-full peer bg-transparent h-10 rounded-lg text-black dark:text-white placeholder-transparent ring-2 ring-black px-2 dark:ring-white dark:focus:ring-white focus:outline-none focus:border-white"
 										placeholder="https://create.kahoot.it/details/something"
 										class:ring-red-700={!url_valid}
 										class:ring-green-600={url_valid}
 									/>
 									<label
 										for="url"
-										class="absolute cursor-text left-0 -top-3 text-sm text-gray-700 dark:text-white bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
+										class="absolute cursor-text left-0 -top-3 text-sm text-black bg-white dark:text-white dark:bg-[#297AFF] mx-1 px-1 dark:peer-placeholder-shown:text-white peer-placeholder-shown:text-black peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-black dark:peer-focus:text-white peer-focus:text-sm transition-all"
 									>
 										{$t('words.url')}
 									</label>
-									<p class="text-sm">
+									<p class="text-sm dark:text-white mt-3">
 										{$t('import_page.url_should_look_like_this')}
 									</p>
 								</div>
-								<p class="mt-2">
+								<p class="mt-2 dark:text-white">
 									{$t('import_page.side_import_kahoot')}
 								</p>
 							</div>
@@ -177,7 +177,7 @@ SPDX-License-Identifier: MPL-2.0
 								<span />
 
 								<button
-									class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+									class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none disabled:cursor-not-allowed"
 									disabled={!url_valid || is_loading}
 									type="submit"
 								>
@@ -204,8 +204,8 @@ SPDX-License-Identifier: MPL-2.0
 					</form>
 					<form on:submit|preventDefault={file_submit}>
 						<div class="w-full mt-4 border-l-2 border-gray-600 h-full flex flex-col">
-							<h2 class="text-center text-2xl">{$t('import_page.classquiz_quiz')}</h2>
-							<div class="dark:bg-gray-800 bg-white p-4 rounded-lg">
+							<h2 class="text-center text-2xl dark:text-white">{$t('import_page.classquiz_quiz')}</h2>
+							<div class="dark:bg-[#297AFF] bg-white p-4 rounded-lg">
 								<div class="relative bg-inherit w-full">
 									<input
 										id="file"
@@ -213,13 +213,13 @@ SPDX-License-Identifier: MPL-2.0
 										name="file"
 										type="file"
 										accept=".cqa,.xlsx"
-										class="w-full peer bg-transparent h-10 rounded-lg py-1.5 text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+										class="w-full peer bg-transparent h-10 rounded-lg py-1.5 text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 dark:ring-white focus:ring-sky-600 focus:outline-none focus:border-rose-600"
 										class:ring-red-700={!file_input}
 										class:ring-green-600={file_input}
 									/>
-									<p class="text-sm">{$t('import_page.upload_file_ending')}</p>
+									<p class="text-sm dark:text-white mt-3">{$t('import_page.upload_file_ending')}</p>
 								</div>
-								<p class="mt-2">
+								<p class="mt-2 dark:text-white">
 									{$t('import_page.this_side_classquiz')}
 									<br />
 									{$t('import_page.this_side_classquiz_excel')}
@@ -236,7 +236,7 @@ SPDX-License-Identifier: MPL-2.0
 								<span />
 
 								<button
-									class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+									class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none disabled:cursor-not-allowed"
 									disabled={!file_input || is_loading}
 									type="submit"
 								>

@@ -41,7 +41,7 @@ SPDX-License-Identifier: MPL-2.0
 		{$t('login_page.welcome_back')}
 	</h3>
 
-	<p class="mt-1 text-center text-white dark:text-white">
+	<p class="mt-1 text-center text-black dark:text-white">
 		{$t('login_page.login_or_create_account')}
 	</p>
 
@@ -54,13 +54,13 @@ SPDX-License-Identifier: MPL-2.0
 						bind:value={email}
 						name="email"
 						type="text"
-						class="w-full peer bg-transparent h-10 rounded-lg text-white dark:text-white placeholder-transparent ring-2 px-2 ring-white focus:ring-white focus:outline-none focus:border-white"
+						class="w-full peer bg-transparent h-10 rounded-lg text-black dark:text-white placeholder-transparent ring-2 ring-black px-2 dark:ring-white dark:focus:ring-white focus:outline-none focus:border-white"
 						placeholder={$t('login_page.email_or_username')}
 						autocomplete="email"
 					/>
 					<label
 						for="email"
-						class="absolute cursor-text left-0 -top-3 text-sm text-white dark:text-white bg-[#297AFF] mx-1 px-1 peer-placeholder-shown:text-white peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-white peer-focus:text-sm transition-all"
+						class="absolute cursor-text left-0 -top-3 text-sm text-black bg-white dark:text-white dark:bg-[#297AFF] mx-1 px-1 dark:peer-placeholder-shown:text-white peer-placeholder-shown:text-black peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-black  dark:peer-focus:text-white peer-focus:text-sm transition-all"
 					>
 						{$t('login_page.email_or_username')}
 					</label>
@@ -69,7 +69,7 @@ SPDX-License-Identifier: MPL-2.0
 			<div class="flex items-center justify-between mt-4">
 				<a
 					href="/account/reset-password"
-					class="text-sm text-white dark:text-white hover:text-white"
+					class="text-sm text-black dark:text-white"
 					>{$t('register_page.forgot_password?')}</a
 				>
 

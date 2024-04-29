@@ -28,8 +28,8 @@ SPDX-License-Identifier: MPL-2.0
 </script>
 
 <div class="w-full h-full pb-20 px-20">
-	<div class="rounded-lg bg-white w-full h-full border-gray-500 dark:bg-gray-700">
-		<div class="h-fit bg-gray-300 rounded-t-lg dark:bg-gray-500">
+	<div class="rounded-lg bg-white w-full h-full border-gray-500 dark:bg-white">
+		<div class="h-fit bg-gray-300 rounded-t-lg dark:bg-[#d1d5db]">
 			<div class="flex align-middle p-4 gap-3">
 				<span
 					class="inline-block bg-gray-600 w-4 h-4 rounded-full hover:bg-red-400 transition"
@@ -43,7 +43,7 @@ SPDX-License-Identifier: MPL-2.0
 			</div>
 		</div>
 		<div
-			class="dark:bg-gray-700 h-full"
+			class="dark:bg-white h-full"
 			style="background-repeat: no-repeat;background-size: 100% 100%;background-image: {data.background_image
 				? `url("/api/v1/storage/download/${data.background_image}")`
 				: `unset`}"
@@ -65,7 +65,7 @@ SPDX-License-Identifier: MPL-2.0
 					type="text"
 					placeholder="Description"
 					bind:value={data.description}
-					class="p-3 rounded-lg border-gray-500 border text-center w-1/3 h-20 resize-none dark:bg-gray-500 outline-none focus:shadow-2xl transition-all"
+					class="p-3 rounded-lg border-black border 2 text-center w-1/3 h-20 resize-none dark:bg-white outline-none focus:shadow-2xl transition-all"
 				/>
 			</div>
 

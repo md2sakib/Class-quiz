@@ -84,7 +84,7 @@ SPDX-License-Identifier: MPL-2.0
 			bind:this={propertyCard}
 			class="bg-white shadow rounded-lg h-40 p-2 mb-6 hover:cursor-pointer drop-shadow-2xl border border-gray-500 dark:bg-gray-600 transition"
 			class:bg-green-300={selected_question === -1}
-			class:dark:bg-green-500={selected_question === -1}
+			class:dark:bg-white={selected_question === -1}
 			on:click={() => setSelectedQuestion(-1)}
 		>
 			<div
@@ -170,7 +170,7 @@ SPDX-License-Identifier: MPL-2.0
 		</div>
 		{#each data.questions as question, index}
 			<div
-				class="bg-white shadow rounded-lg h-40 p-2 mb-6 hover:cursor-pointer drop-shadow-2xl border border-gray-500 dark:bg-gray-600 transition relative"
+				class="bg-white shadow rounded-lg h-40 p-2 mb-6 hover:cursor-pointer drop-shadow-2xl border border-gray-500 dark:bg-white transition relative"
 				class:bg-green-300={index === selected_question}
 				class:dark:bg-green-500={index === selected_question}
 				on:click={() => {
@@ -375,11 +375,11 @@ SPDX-License-Identifier: MPL-2.0
 			</div>
 		{/each}
 		<div
-			class="bg-white shadow rounded-lg h-40 p-2 hover:cursor-pointer drop-shadow-2xl border border-gray-500 dark:bg-gray-600 grid grid-cols-2"
+			class="bg-white shadow rounded-lg h-40 p-2 hover:cursor-pointer drop-shadow-2xl border border-gray-500 grid grid-cols-2"
 		>
 			<button
 				type="button"
-				class="h-full flex justify-center w-full flex-col border-r border-black dark:text-white"
+				class="h-full flex justify-center w-full flex-col border-r border-black dark:text-black"
 				on:click={() => {
 					add_new_question_popup_open = true;
 				}}
@@ -402,7 +402,7 @@ SPDX-License-Identifier: MPL-2.0
 			</button>
 			<button
 				type="button"
-				class="h-full flex justify-center w-full dark:text-white flex-col"
+				class="h-full flex justify-center w-full dark:text-black flex-col"
 				on:click={() => {
 					data.questions = [...data.questions, { ...empy_slide }];
 				}}

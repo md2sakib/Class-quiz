@@ -106,7 +106,7 @@ SPDX-License-Identifier: MPL-2.0
 									id="email"
 									name="email"
 									type="email"
-									class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+									class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 dark:ring-white focus:ring-sky-600 dark:focus:ring-white focus:outline-none focus:border-rose-600"
 									placeholder={$t('words.email')}
 									class:ring-red-700={$errors.email !== null}
 									class:ring-green-600={$touched.email === true &&
@@ -114,7 +114,7 @@ SPDX-License-Identifier: MPL-2.0
 								/>
 								<label
 									for="email"
-									class="absolute cursor-text left-0 -top-3 text-sm text-white dark:text-black bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
+									class="absolute cursor-text left-0 -top-3 text-sm text-white dark:text-white dark:bg-[#297AFF] bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500  dark:peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 dark:peer-focus:text-white peer-focus:text-sm transition-all"
 								>
 									{$t('words.email')}
 								</label>
@@ -126,7 +126,7 @@ SPDX-License-Identifier: MPL-2.0
 									id="username"
 									name="username"
 									type="text"
-									class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+									class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 dark:ring-white focus:ring-sky-600 dark:focus:ring-white focus:outline-none focus:border-rose-600"
 									placeholder={$t('words.username')}
 									class:ring-red-700={$errors.username !== null}
 									class:ring-green-600={$touched.username === true &&
@@ -134,7 +134,7 @@ SPDX-License-Identifier: MPL-2.0
 								/>
 								<label
 									for="username"
-									class="absolute cursor-text left-0 -top-3 text-sm text-gray-700 dark:text-black bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
+									class="absolute cursor-text left-0 -top-3 text-sm text-gray-500 bg-inherit mx-1 px-1 dark:text-white dark:ring-white dark:focus:ring-white dark:peer-placeholder-shown:text-white peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 dark:peer-focus:text-white peer-focus:text-sm transition-all"
 								>
 									{$t('words.username')}
 								</label>
@@ -149,12 +149,12 @@ SPDX-License-Identifier: MPL-2.0
 									class:ring-red-700={$errors.password1 !== null}
 									class:ring-green-600={$touched.password1 === true &&
 										$errors.password1 === null}
-									class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+									class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 dark:ring-white focus:ring-sky-600 dark:focus:ring-white focus:outline-none focus:border-rose-600 ring-red-700"
 									placeholder={$t('words.password')}
 								/>
 								<label
 									for="password1"
-									class="absolute cursor-text left-0 -top-3 text-sm text-gray-500 bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
+									class="absolute cursor-text left-0 -top-3 text-sm text-gray-500 bg-inherit mx-1 px-1 dark:text-white  dark:ring-white dark:focus:ring-white dark:peer-placeholder-shown:text-white peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 dark:peer-focus:text-white peer-focus:text-sm transition-all"
 								>
 									{$t('words.password')}
 								</label>
@@ -166,7 +166,7 @@ SPDX-License-Identifier: MPL-2.0
 									id="password2"
 									name="password2"
 									type="password"
-									class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+									class="w-full peer bg-transparent h-10 rounded-lg text-gray-700 dark:text-white placeholder-transparent ring-2 px-2 ring-gray-500 dark:ring-white focus:ring-sky-600 dark:focus:ring-white focus:outline-none focus:border-rose-600 ring-red-700"
 									placeholder={$t('words.password')}
 									class:ring-red-700={$errors.password2 !== null}
 									class:ring-green-600={$touched.password2 === true &&
@@ -174,14 +174,14 @@ SPDX-License-Identifier: MPL-2.0
 								/>
 								<label
 									for="password2"
-									class="absolute cursor-text left-0 -top-3 text-sm text-gray-500 bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all"
+									class="absolute cursor-text left-0 -top-3 text-sm text-gray-500 bg-inherit mx-1 px-1 dark:text-white dark:ring-white dark:focus:ring-white dark:peer-placeholder-shown:text-white peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 dark:peer-focus:text-white peer-focus:text-sm transition-all"
 								>
-									{$t('words.password')}
+									{$t('words.repeat_password')}
 								</label>
 							</div>
 						</div>
 						<div
-							class="ring-1 ring-gray-500 focus:outline-none rounded-lg m-4 py-2"
+							class="ring-1 ring-gray-500 dark:ring-white focus:outline-none rounded-lg m-4 py-2"
 							class:ring-red-700={$errors.privacy_accept !== null}
 							class:ring-green-600={$touched.privacy_accept === true &&
 								$errors.privacy_accept === null}
@@ -195,7 +195,7 @@ SPDX-License-Identifier: MPL-2.0
 							</label>
 						</div>
 						<div
-							class="ring-1 ring-gray-500 focus:outline-none rounded-lg m-4 py-2"
+							class="ring-1 ring-gray-500 dark:ring-white focus:outline-none rounded-lg m-4 py-2"
 							class:ring-red-700={$errors.tos_accept !== null}
 							class:ring-green-600={$touched.tos_accept === true &&
 								$errors.tos_accept === null}
@@ -217,10 +217,10 @@ SPDX-License-Identifier: MPL-2.0
 							>
 
 							<button
-								class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none"
+								class="px-4 py-2 leading-5 bg-[#374151] text-white transition-colors duration-200 transform rounded hover:bg-gray-600 focus:outline-none"
 								disabled={!$isValid || $isSubmitting}
 								class:cursor-not-allowed={!$isValid || $isSubmitting}
-								class:opacity-50={!$isValid || $isSubmitting}
+								class:opacity-100={!$isValid || $isSubmitting}
 								type="submit"
 							>
 								{#if $isSubmitting}

@@ -174,7 +174,7 @@ SPDX-License-Identifier: MPL-2.0
 				<br />
 				{$t('index_page.features_description.2')}
 				<br />
-				{$t('index_page.features_description.3')}
+				{$t('index_page.features_dFooterescription.3')}
 			</p>
 		</div>
 	</section>
@@ -486,7 +486,7 @@ SPDX-License-Identifier: MPL-2.0
 		</div>
 	</section>
 
-	<section class="mt-24">
+	<!-- <section class="mt-24">
 		<div class="flex justify-center w-full">
 			<h2 class="text-center text-3xl rounded-t-lg bg-opacity-40 bg-white py-2 px-6">
 				{$t('index_page.why_classquiz')}
@@ -520,7 +520,7 @@ SPDX-License-Identifier: MPL-2.0
 				{/each}
 			</div>
 		</div>
-	</section>
+	</section> -->
 </div>
 {#if newsletterModalOpen}
 	<div

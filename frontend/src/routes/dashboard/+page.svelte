@@ -123,7 +123,7 @@ SPDX-License-Identifier: MPL-2.0
                     class='px-4 py-2 font-medium tracking-wide text-gray-500 whitespace-nowrap dark:text-gray-400 capitalize transition-colors dark:bg-gray-700 duration-200 transform bg-[#B07156] rounded-md hover:bg-green-600 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80'>
                     Primary
                 </button>-->
-			<div class="w-full grid lg:grid-cols-4 gap-2 grid-cols-2 px-4">
+			<div class="w-full grid lg:grid-cols-4 gap-2 grid-cols-2 px-4 mt-5">
 				{#if create_button_clicked}
 					<div
 						class="flex gap-2"
@@ -156,7 +156,7 @@ SPDX-License-Identifier: MPL-2.0
 						<div>
 							<input
 								bind:value={search_term}
-								class="p-2 rounded-lg outline-none text-center w-96 dark:bg-gray-700"
+								class="p-2 rounded-lg outline-none text-center w-96 bg-[#EDEDED] text-black"
 								placeholder={$t('dashboard.search_for_own_quizzes')}
 							/>
 							<button
@@ -386,7 +386,7 @@ SPDX-License-Identifier: MPL-2.0
 					{/each}
 				</div>
 			{:else}
-				<p>
+				<p class=" px-4">
 					{$t('overview_page.no_quizzes')}
 				</p>
 			{/if}

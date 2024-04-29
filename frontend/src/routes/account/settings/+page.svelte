@@ -199,21 +199,21 @@ SPDX-License-Identifier: MPL-2.0
 					<label
 						>{$t('settings_page.old_password')}:<input
 							type="password"
-							class="m-2 text-black rounded p-1 dark:bg-gray-700 dark:text-white"
+							class="m-2 text-black rounded p-1 dark:bg-[#EDEDED] dark:text-black  ring-2 ring-dark outline-none"
 							bind:value={changePasswordData.oldPassword}
 						/></label
 					>
 					<label
 						>{$t('settings_page.new_password')}:<input
 							type="password"
-							class="m-2 text-black rounded p-1 dark:bg-gray-700 dark:text-white"
+							class="m-2 text-black rounded p-1 dark:bg-[#EDEDED] dark:text-black ring-2 ring-dark outline-none"
 							bind:value={changePasswordData.newPassword}
 						/></label
 					>
 					<label
 						>{$t('settings_page.repeat_password')}:<input
 							type="password"
-							class="m-2 text-black rounded p-1 dark:bg-gray-700 dark:text-white"
+							class="m-2 text-black rounded p-1 dark:bg-[#EDEDED] dark:text-black ring-2 ring-dark outline-none"
 							bind:value={changePasswordData.newPasswordConfirm}
 						/></label
 					>
@@ -255,41 +255,41 @@ SPDX-License-Identifier: MPL-2.0
 	<Spinner />
 {:then sessions}
 	<table class="min-w-full">
-		<thead class="bg-gray-50 dark:bg-gray-700">
+		<thead class="bg-gray-50 dark:bg-[#297AFF]">
 			<tr>
 				<th
 					scope="col"
-					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-white"
 				>
 					{$t('overview_page.created_at')}
 				</th>
 				<th
 					scope="col"
-					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-white"
 				>
 					{$t('settings_page.last_seen')}
 				</th>
 				<th
 					scope="col"
-					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-white"
 				>
 					{$t('words.browser')}
 				</th>
 				<th
 					scope="col"
-					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-white"
 				>
 					{$t('settings_page.check_location')}
 				</th>
 				<th
 					scope="col"
-					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-white"
 				>
 					{$t('settings_page.delete_this_session')}
 				</th>
 				<th
 					scope="col"
-					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+					class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-white"
 				>
 					{$t('settings_page.this_session?')}
 				</th>
@@ -297,24 +297,24 @@ SPDX-License-Identifier: MPL-2.0
 		</thead>
 		<tbody>
 			{#each sessions as session}
-				<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+				<tr class="bg-white border-b dark:bg-[#66A0FF] dark:border-gray-700">
 					<td
-						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400"
+						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-white"
 					>
 						{formatDate(session.created_at)}
 					</td>
 					<td
-						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400"
+						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-white"
 					>
 						{formatDate(session.last_seen)}
 					</td>
 					<td
-						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400"
+						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-white"
 					>
 						{getFormattedUserAgent(session.user_agent)}
 					</td>
 					<td
-						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400"
+						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-white"
 					>
 						<button
 							on:click={() => {
@@ -323,7 +323,7 @@ SPDX-License-Identifier: MPL-2.0
 						>
 					</td>
 					<td
-						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400"
+						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-white"
 					>
 						<button
 							on:click={() => {
@@ -332,7 +332,7 @@ SPDX-License-Identifier: MPL-2.0
 						>
 					</td>
 					<td
-						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400"
+						class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap dark:text-white"
 					>
 						{#if session.id === this_session.id}
 							✅

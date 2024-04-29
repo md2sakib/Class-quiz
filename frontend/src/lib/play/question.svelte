@@ -263,7 +263,7 @@ SPDX-License-Identifier: MPL-2.0
 					type="text"
 					bind:value={text_input}
 					disabled={selected_answer}
-					class="bg-gray-50 focus:ring text-gray-900 rounded-lg focus:ring-blue-500 block w-full p-2 dark:bg-gray-700 dark:text-white dark:focus:ring-blue-500 outline-none transition text-center disabled:opacity-50 disabled:cursor-not-allowed"
+					class="bg-[#ededed] focus:ring text-black border border-black rounded-lg focus:ring-blue-500 block w-full p-2 dark:bg-[#ededed] dark:text-black dark:focus:ring-blue-500 outline-none transition text-center disabled:opacity-50 disabled:cursor-not-allowed"
 				/>
 			</div>
 

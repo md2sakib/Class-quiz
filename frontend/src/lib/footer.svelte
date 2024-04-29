@@ -11,9 +11,9 @@ SPDX-License-Identifier: MPL-2.0
 	const { t } = getLocalization();
 </script>
 
-<!-- <footer class="text-center text-white border-black w-screen">
+<footer class="text-center text-white border-black w-screen">
 	<div class="grid grid-cols-12 w-full pt-4 bg-gray-700 pb-2">
-		<p class="col-start-3 col-end-11 text-center w-full">
+		<!-- <p class="col-start-3 col-end-11 text-center w-full">
 			{@html $t('footer.self_ads', {
 				mawoka_link:
 					'<a href="https://mawoka.eu?utm_source=ClassQuiz&utm_medium=footer" target="_blank" class="underline text-blue-300 hover:text-blue-500 transition">Mawoka</a>',
@@ -37,7 +37,8 @@ SPDX-License-Identifier: MPL-2.0
 				class="underline text-blue-300 hover:text-blue-500 transition"
 				>{$t('footer.more_details_here')}.</a
 			>
-		</p>
+		</p> -->
+		<p class="col-start-3 col-end-11 text-center w-full">Copyright 2024 All rights reserved</p>
 		<div
 			class="flex flex-col items-center min-h-full h-full md:block hidden col-start-11 col-end-12"
 		>
@@ -46,16 +47,16 @@ SPDX-License-Identifier: MPL-2.0
 			</div>
 		</div>
 	</div>
-	<div class="md:hidden block">
+	<!-- <div class="md:hidden block">
 		<div class="self-end flex justify-center min-h-full h-full bg-gray-700 pb-2 md:pb-0">
 			<div class="m-auto md:invisible visible">
 				<LanguageToggle />
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="bg-gray-700">
-		<p>
+		<!-- <p>
 			Consider following
 			<svg
 				class="inline-block h-4 w-4"
@@ -74,9 +75,11 @@ SPDX-License-Identifier: MPL-2.0
 				class="underline text-blue-300 hover:text-blue-500 transition"
 				>@classquiz@fosstodon.org</a
 			> for updates!
-		</p>
+		</p> -->
+		<!-- 
+		 -->
 	</div>
-</footer> -->
+</footer>
 
 <!--
 <style>

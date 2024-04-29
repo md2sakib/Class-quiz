@@ -99,13 +99,13 @@ SPDX-License-Identifier: MPL-2.0
 	on:click={on_parent_click}
 	transition:fade|local={{ duration: 100 }}
 >
-	<div class="m-auto w-2/3 h-5/6 rounded shadow-2xl bg-white dark:bg-gray-600 p-6 flex flex-col">
+	<div class="m-auto w-2/3 h-5/6 rounded shadow-2xl bg-white dark:bg-white p-6 flex flex-col">
 		<h1 class="text-center text-3xl mb-6">{$t('quiztivity.editor.select_page_type')}</h1>
 		<div class="grid grid-cols-4 gap-4 overflow-y-scroll">
 			{#each question_types as qt, i}
 				<div class="rounded p-6 border-[#B07156] border">
 					<button
-						class="text-xl text-black dark:text-white"
+						class="text-xl text-black dark:text-black"
 						on:click={() => {
 							add_question(i);
 						}}>{qt.name}</button
