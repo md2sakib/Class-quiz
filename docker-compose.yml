@@ -36,7 +36,7 @@ services:
       # -- DON'T CHANGE TILL HERE ---
 
       # --- GENERAL CONFI ---
-      ROOT_ADDRESS: "https://classquiz.de" # CHANGE IT (without a "/" at the end)
+      ROOT_ADDRESS: "https://classquiz.keosapp.com" # CHANGE IT (without a "/" at the end)
 
       # --- MAIL CONFIG ---
       MAIL_PORT: "587"
